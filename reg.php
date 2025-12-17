@@ -19,7 +19,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            background: linear-gradient(135deg, #1388efff, #2575fc);
         }
 
         .container {
@@ -64,13 +64,13 @@
 
         .input-group input:focus {
             border-color: #6a11cb;
-            box-shadow: 0 0 5px rgba(106, 17, 203, 0.3);
+            box-shadow: 0 0 5px rgba(131, 204, 243, 0.3);
         }
 
         button {
             width: 100%;
             padding: 12px;
-            background: #6a11cb;
+            background: #096e9aff;
             color: white;
             border: none;
             font-size: 16px;
@@ -80,7 +80,7 @@
         }
 
         button:hover {
-            background: #5015c0;
+            background: #54ade7ff;
         }
 
         .login-text {
@@ -90,7 +90,7 @@
         }
 
         .login-text a {
-            color: #6a11cb;
+            color: #1171cbff;
             text-decoration: none;
             font-weight: 600;
         }
@@ -99,8 +99,10 @@
 <body>
 
 
+
 <div class="container">
     <form class="form" id="reg">
+        <h2>Welcome to L.M.S</h2>
         <h2>Create Account</h2>
 
         <div class="input-group">
@@ -132,7 +134,7 @@
     </form>
 </div>
 
-    <a href="login.php">login</a>
+
 
     <script src="reg.js"></script>
 

@@ -89,7 +89,7 @@
         </div> 
         <button class="btn">Login</button>
         </form>
-        <p class="footer-text">Don't have an account? <a href="reggit git .php">Register</a></p>
+        <p class="footer-text">Don't have an account? <a href="reg.php">Register</a></p>
     </div>
     <p id="msg"></p>
 </body>
