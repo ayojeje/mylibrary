@@ -4,11 +4,11 @@ require_once("dbcon.php");
 $method = $_SERVER['REQUEST_METHOD'];
 
 if($method == 'GET'){
-  $qry= mysqli_query($conn, "SELECT * FROM hms_reg");
+  $qry= mysqli_query($conn, "SELECT * FROM lmsreg");
 
 $data= [];
 while($row=mysqli_fetch_assoc($qry)){
-    $record = ["id"=>$row['id'],"firstname"=>$row['firstname'], "lastname"=>$row['lastname'], "email"=>$row['email'], "department"=>$row['department'] ];
+    $record = ["id"=>$row['id'],"firstname"=>$row['firstname'], "username"=>$row['username'], "email"=>$row['email'] ];
     array_push($data,$record);
 };
 
@@ -19,8 +19,8 @@ if($method == 'PUT'){
     $rawdata=file_get_contents("php://input");
     $newdata=json_decode($rawdata,true);
     $id=$newdata["id"]?? null;
-    $firstname=$newdata["firstname"]?? null;
-    $query=mysqli_query ($conn,"UPDATE hms_reg set firstname='$firstname' WHERE id='$id'");
+    $firstname=$newdata["fullname"]?? null;
+    $query=mysqli_query ($conn,"UPDATE lmreg set fullname='$fullname' WHERE id='$id'");
  
      
 

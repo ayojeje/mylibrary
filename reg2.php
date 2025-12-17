@@ -11,8 +11,9 @@ $email=$newdata["email"]?? null;
 $password=$newdata["password"]?? null;
 
 
-$query=mysqli_query ($conn,"INSERT INTO lmsreg (fullname, username, email, password, )
+$query=mysqli_query ($conn,"INSERT INTO lmsreg (fullname, username, email, password)
  VALUE ('$fullname','$username','$email', '$password')");
+ 
  
 $response = [];
 if($query){

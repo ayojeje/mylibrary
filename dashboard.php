@@ -435,7 +435,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book18.jpg" width="80" height="80">
+                           <img src="images/book18.jpg" width="80" height="80">
                           <p class="card-category">RELIGION</p>
                          <a href="religion.php">View All</a>
                           <h4 class="card-title"></h4>
@@ -456,7 +456,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book22.jpg" width="80" height="80">
+                           <img src="images/book22.jpg" width="80" height="80">
                           <p class="card-category">POETRY</p>
                           <a href="poetry.php">View All</a>
                           <h4 class="card-title"></h4>
@@ -477,7 +477,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book2.jpg" width="80" height="80">
+                           <img src="images/book2.jpg" width="80" height="80">
                           <p class="card-category">DRAMMA</p>
                           <a href="dramma.php">View All</a>
                           <h4 class="card-title"></h4>
@@ -498,7 +498,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book10.jpg" width="80" height="80">
+                           <img src="images/book10.jpg" width="80" height="80">
                           <p class="card-category">PROSE</p>
                           <a href="prose.php">View All</a>
                           <h4 class="card-title"></h4>
@@ -526,7 +526,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book17.jpg" width="80" height="80">
+                           <img src="images/book17.jpg" width="80" height="80">
                           <p class="card-category">Older</p>
                           <a href="">preview books</a>
                           <h4 class="card-title"></h4>
@@ -548,7 +548,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book20.jpg" width="80" height="80">
+                           <img src="images/book20.jpg" width="80" height="80">
                           <p class="card-category">Current</p>
                           <a href="">preview books</a>
                           <h4 class="card-title"></h4>
@@ -569,7 +569,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book2.jpg" width="80" height="80">
+                           <img src="images/book2.jpg" width="80" height="80">
                            <p class="card-category">New Release</p> 
                            <a href="">preview books</a>
                           <h4 class="card-title"></h4>
@@ -590,7 +590,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book24.jpg" width="80" height="80">
+                           <img src="images/book24.jpg" width="80" height="80">
                           <p class="card-category">Order</p>
                           <a href="">preview books</a>
                           <h4 class="card-title"></h4>
@@ -617,7 +617,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book8.jpg" width="80" height="80">
+                          <img src="images/book8.jpg" width="80" height="80">
                           <p class="card-category">love</p>
                           <a href="">preview books</a>
                           <h4 class="card-title"></h4>
@@ -638,7 +638,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book14.jpg" width="80" height="80">
+                          <img src="images/book14.jpg" width="80" height="80">
                           <p class="card-category">history</p>
                           <h4 class="card-title">1303</h4>
                         </div>
@@ -658,7 +658,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book10.jpg" width="80" height="80">
+                          <img src="images/book10.jpg" width="80" height="80">
                           <p class="card-category">love</p>
                           <h4 class="card-title">$ 1,345</h4>
                         </div>
@@ -678,7 +678,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book15.jpg" width="80" height="80">
+                          <img src="images/book15.jpg" width="80" height="80">
                           <p class="card-category">romance</p>
                           <h4 class="card-title">576</h4>
                         </div>
@@ -873,7 +873,6 @@
                           <th>TITLE</th>
                           <th>AUTHOR</th>
                           <th>GENRE</th>
-                          <th>CATEGORIES</th>
                           <th style="width: 10%">Image</th>
                         </tr>
                       </thead>
