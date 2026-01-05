@@ -1,45 +1,22 @@
 <?php
-header("content-Type:application/json");
-require_once("dbcon.php");
+session_start();
+
+$id = $_SESSION["id"];
+
+
+
+require_once("includes/config.php");
+header("content-type:application/json");
+header("HTTP/1.1 200 ok");
 $method = $_SERVER['REQUEST_METHOD'];
 
-if($method == 'GET'){
-  $qry= mysqli_query($conn, "SELECT * FROM lmsreg");
+if($method=='GET'){
+$query = mysqli_query($conn, "SELECT * FROM lmsreg WHERE id = '$id'");
+$row = mysqli_fetch_assoc($query);
 
-$data= [];
-while($row=mysqli_fetch_assoc($qry)){
-    $record = ["id"=>$row['id'],"firstname"=>$row['firstname'], "username"=>$row['username'], "email"=>$row['email'] ];
-    array_push($data,$record);
-};
-
-echo json_encode($data);
+echo json_encode($row);
 }
 
-if($method == 'PUT'){
-    $rawdata=file_get_contents("php://input");
-    $newdata=json_decode($rawdata,true);
-    $id=$newdata["id"]?? null;
-    $firstname=$newdata["fullname"]?? null;
-    $query=mysqli_query ($conn,"UPDATE lmreg set fullname='$fullname' WHERE id='$id'");
- 
-     
-
-$response = [];
-if($query){
-        $response=["success"=> true,
-    "status"=>200
-];
-
-}else{
-    $response=["success"=>false,
-      "status"=>500
-      
-];
-}
-echo json_encode($response);
-
-
-}
 
 
 

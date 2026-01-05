@@ -350,8 +350,8 @@
                           <img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded" />
                         </div>
                         <div class="u-text">
-                          <h4>Hizrian</h4>
-                          <p class="text-muted">hello@example.com</p>
+                          <h4><?php echo $_SESSION["fullname"]; ?></h4>
+                          <p class="text-muted"><?php echo $_SESSION["email"]; ?></p>
                           <a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                         </div>
                       </div>
@@ -404,9 +404,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book18.jpg" width="80" height="80">
+                           <img src="images/book2.jpg" width="80" height="80">
                           <p class="card-category">Heaven Gate</p>
-                         <a href="dash-board.php">preview book</a>
+                         <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -425,9 +425,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book22.jpg" width="80" height="80">
+                           <img src="images/book3.jpg" width="80" height="80">
                           <p class="card-category">christ death</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -446,9 +446,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book2.jpg" width="80" height="80">
+                           <img src="images/book18.jpg" width="80" height="80">
                           <p class="card-category">sorrow</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -467,9 +467,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book10.jpg" width="80" height="80">
+                         <img src="images/book15.jpg" width="80" height="80">
                           <p class="card-category">wealth</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -493,9 +493,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book17.jpg" width="80" height="80">
+                           <img src="images/book12.jpg" width="80" height="80">
                           <p class="card-category">promises</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -515,9 +515,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book20.jpg" width="80" height="80">
+                           <img src="images/book11.jpg" width="80" height="80">
                           <p class="card-category">salvation</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -536,9 +536,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="book2.jpg" width="80" height="80">
+                           <img src="images/book10.jpg" width="80" height="80">
                            <p class="card-category">Death</p> 
-                           <a href="">preview books</a>
+                           <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -559,7 +559,7 @@
                         <div class="numbers">
                            <img src="book24.jpg" width="80" height="80">
                           <p class="card-category">Devil</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -584,9 +584,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book8.jpg" width="80" height="80">
+                          <img src="book21.jpg" width="80" height="80">
                           <p class="card-category">Christ love</p>
-                          <a href="">preview books</a>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -605,8 +605,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book14.jpg" width="80" height="80">
+                          <img src="book20.jpg" width="80" height="80">
                           <p class="card-category">mosaic law</p>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>
@@ -625,8 +626,9 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <img src="book10.jpg" width="80" height="80">
+                          <img src="images/book6.jpg" width="80" height="80">
                           <p class="card-category">sin</p>
+                          <a href="payment.html">preview book</a>
                           <h4 class="card-title"></h4>
                         </div>
                       </div>

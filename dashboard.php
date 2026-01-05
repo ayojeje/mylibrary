@@ -1,3 +1,6 @@
+<?php
+ session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -370,7 +373,7 @@
                   </div>
                   <span class="profile-username">
                     <span class="op-7">Hi,</span>
-                    <span class="fw-bold">Hizrian</span>
+                    <span class="fw-bold"><?php echo $_SESSION["fullname"]; ?></span>
                   </span>
                 </a>
                 <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -381,9 +384,9 @@
                           <img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded" />
                         </div>
                         <div class="u-text">
-                          <h4>Hizrian</h4>
-                          <p class="text-muted">hello@example.com</p>
-                          <a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
+                          <h4><?php echo $_SESSION["fullname"]; ?></h4>
+                          <p class="text-muted"><?php echo $_SESSION["email"]; ?></p>
+                          <a href="profiles.php" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                         </div>
                       </div>
                     </li>
@@ -456,7 +459,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                           <img src="images/book22.jpg" width="80" height="80">
+                           <img src="images/book14.jpg" width="80" height="80">
                           <p class="card-category">POETRY</p>
                           <a href="poetry.php">View All</a>
                           <h4 class="card-title"></h4>
@@ -777,11 +780,11 @@
               <div class="card">
                 <div class="card-header">
                   <div class="d-flex align-items-center">
-                    <h4 class="card-title">Add Row</h4>
+                    <h4 class="card-title">Add Books</h4>
                     <button class="btn btn-primary btn-round ms-auto" data-bs-toggle="modal"
                       data-bs-target="#addRowModal">
                       <i class="fa fa-plus"></i>
-                      Add Row
+                      Add Books
                     </button>
                   </div>
                 </div>
